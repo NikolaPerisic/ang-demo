@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "ng b --prod --base-href https://nikolaperisic.github.io/ang-demo/ && npx ngh --dir=dist/ang-demo"
   },
   "private": true,
   "dependencies": {
